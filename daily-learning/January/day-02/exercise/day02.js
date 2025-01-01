@@ -1,0 +1,1 @@
+const day02 = `The second day of our class`
