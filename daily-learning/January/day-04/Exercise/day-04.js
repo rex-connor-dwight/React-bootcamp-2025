@@ -1,0 +1,1 @@
+const scriptingLanguage = `is a tool for writing scripts—small programs that automate tasks or extend the functionality of existing systems—rather than building large, standalone applications.`
