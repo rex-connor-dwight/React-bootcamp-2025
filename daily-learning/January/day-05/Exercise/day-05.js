@@ -1,0 +1,1 @@
+const freeday = `today is a class free day but i still need to commit to the course`;
