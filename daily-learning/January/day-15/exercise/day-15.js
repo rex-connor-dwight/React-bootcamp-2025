@@ -1,3 +1,6 @@
+
+// John const and constant are diffrent
+
 const car = {
     brand: "Toyota",
     model: "Camry",
@@ -18,9 +21,22 @@ const car = {
         // we used the this method of refrencing an Object key
     },
     getdetailsUsingBracketNotation: function(){
-        console.log(`${car["brand"]} ${car["model"]} ${car["color"]} ${car["weight"]}`)
+        console.log(`${this["brand"]} ${this["model"]} ${this["color"]} ${this["weight"]}`)
         // we used the bracket notation way of refrencing an Object key
     },
 };
 
+
+
+// console.log(car.getDetailsUsingThis())
+
+ 
+// console.log(car[`brand`]);
+
+
+
+
+
 // car.getdetailsUsingBracketNotation()
+
+

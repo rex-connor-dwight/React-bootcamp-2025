@@ -37,8 +37,8 @@ student.grade = "A+";
 
 
 // for...in is is type of Loop in JS
-for (const muna in student){
-    console.log(`${muna}: ${student[muna]}`)
+for (const key in student){
+    console.log(`${key}: ${student[key]}`)
 }
 
 // const owen = `name`;

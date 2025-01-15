@@ -67,33 +67,63 @@ const courses = {
   art: "A"
 };
 
-// for (const course in courses) {
-//   console.log(`Course ${course}: Grade ${courses[course]}`);
-// }
+for (const key in courses) {
+  console.log(`Course ${key}: Grade ${courses[key]}`);
+}
 
-// for (const course in courses) {
-//     if (courses[course] === "A") {
-//         const totalCourses = Object.keys(courses).length;
-//         console.log(`Total number of courses: ${totalCourses}`);
-//     } 
-//   };
+for (const key in courses) {
+    if (courses[key] === "A") {
+        const totalCourses = Object.key(courses).length;
+        console.log(`Total number of courses: ${totalCourses}`);
+    } 
+  };
+
+const aCourses = Object.keys(courses).filter(key => courses[key] ===`B` || courses[key] === `C`)
+
+// console.log(aCourses.length)
+
+ 
+ 
+  const se = `1`;
+  const see = 1;
+
+  // // console.log(se - see)
+
+  // if (se == see){
+  //   console.log(`Yes`)
+  // } else {
+  //   console.log(`No`)
+  // }
+
+  // type coercion
+
+  // if (se === see){
+  //   console.log(`Yes`)
+  // } else {
+  //   console.log(`No`)
+  // }
+
+ 
+ 
 
 
-// let totalCourses = 0;
-// let gradeACount = 0;
-// let gradeBLowerCount = 0;
 
-// for (const course in courses) {
-//   totalCourses++;
-//   if (courses[course] === "A") {
-//     gradeACount++;
-//   } else if (courses[course] === "B" || courses[course] === "C") {
-//     gradeBLowerCount++;
-//   }
-// }
+
+let totalCourses = 0;
+let gradeACount = 0;
+let gradeBlowerCount = 0;
+
+for (const course in courses) {
+  totalCourses++; 
+  if (courses[course] === "A") {
+    gradeACount++;
+  } else if (courses[course] === "B" || courses[course] === "C") {
+    gradeBlowerCount++;
+  }
+}
 
 // console.log(`Total number of courses: ${totalCourses}`);
 // console.log(`Number of courses with grade A: ${gradeACount}`);
-// console.log(`Number of courses with grade B or lower: ${gradeBLowerCount}`);
+// console.log(`Number of courses with grade B or lower: ${gradeBlowerCount}`);
 
 // console.table(courses)
