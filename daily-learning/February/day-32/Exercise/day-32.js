@@ -1,9 +1,13 @@
-// Absolute Value: This JavaSript Math Method returns an absolute value of any given whole number or negative integer.
+// Absolute Value: This JavaSript Math Method that returns an absolute value of any given whole number or negative integer.
+//  +10
+//  -10
 
 const absoluteValueNegative = Math.abs(-4.7);
 const absoluteValuePositive = Math.abs(4.7);
 
 // console.log(absoluteValueNegative + `\n` +  absoluteValuePositive);
+// console.log(`${absoluteValueNegative} \n${absoluteValuePositive}`);
+
 
 
 
@@ -23,7 +27,6 @@ const toThePowerOf = Math.pow(4, 2);
     //     The result of Math.pow(4, 2) is , which equals 16.
 
     //      Additional Notes:
-
     //      You can also use the exponentiation operator (**) in modern JavaScript as a shorthand for Math.pow():
 
             const usingExponentiationOperator = 4 ** 2;
@@ -48,9 +51,17 @@ const squareRoot = Math.sqrt(25);
     const negativeSquareRoot = Math.sqrt(-25);
     // console.log(negativeSquareRoot);
 
+    // console.log( Math.pow(81, 0.5))
+    // console.log(81 ** 0.5)
+    // console.log(Math.sqrt(81))
+    
+
+
     // Additional Notes:
     // You can also calculate the square root using the exponentiation operator (**):
     const usingExponentiationOperatorTwo = 25 ** 0.5;
+
+
 
 const cubeRoot = Math.cbrt(27);
 
@@ -65,6 +76,8 @@ const cubeRoot = Math.cbrt(27);
     // Key Points:
     // The Math.cbrt() function works for both positive and negative numbers, as well as zero.
     // Unlike the square root, the cube root of a negative number is also a real number.
+
+    // console.log(Math.pow(27, 1/3))
 
     // Additional Notes:
     // You can also calculate the cube root using the exponentiation operator (**):
@@ -156,6 +169,8 @@ const logarithmicValueOfTen = Math.log10(100);
 
 
 
+
+
 const exponentialValue = Math.exp(2);
 
     // Explanation:
@@ -176,7 +191,7 @@ const exponentialValue = Math.exp(2);
 
 
 
-// console.log(logarithmicValue + `\n` + exponentialValue + `\n` + logarithmicValueOfTen);
+console.log(logarithmicValue + `\n` + exponentialValue + `\n` + logarithmicValueOfTen);
 // console.log(usingExponentiationOperatorFour + `\n` + usingExponentiationOperatorFive);
 
 
@@ -282,7 +297,7 @@ const signOfANumberThree = Math.sign(0)
 
     const getHypotenuse = (a, b) => 
         Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-    console.log(getHypotenuse(3, 4))
+    // console.log(getHypotenuse(3, 4))
 
     
     const pependincular = Math.pow(3, 2)
