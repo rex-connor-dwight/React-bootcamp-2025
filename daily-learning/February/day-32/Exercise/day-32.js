@@ -191,7 +191,7 @@ const exponentialValue = Math.exp(2);
 
 
 
-console.log(logarithmicValue + `\n` + exponentialValue + `\n` + logarithmicValueOfTen);
+// console.log(logarithmicValue + `\n` + exponentialValue + `\n` + logarithmicValueOfTen);
 // console.log(usingExponentiationOperatorFour + `\n` + usingExponentiationOperatorFive);
 
 
@@ -291,7 +291,7 @@ const signOfANumberThree = Math.sign(0)
 // Advanced Examples
 // 1. Calculating Hypotenuse
 
-    // Use the Pythagorean theorem 
+    // Using the Pythagorean theorem 
     // c2=a2+b2 
     
 
@@ -303,7 +303,7 @@ const signOfANumberThree = Math.sign(0)
     const pependincular = Math.pow(3, 2)
     const base = Math.pow(4, 2)
     const hypotenuse = Math.sqrt(pependincular + base)
-    // console.log(hypotenuse)
+    console.log(hypotenuse)
 
 
 

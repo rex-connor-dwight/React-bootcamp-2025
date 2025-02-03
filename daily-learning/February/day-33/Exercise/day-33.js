@@ -6,7 +6,14 @@ const convertFlootingNumberOne = Math.round(flootingNumberOne);
 const convertFlootingNumberTwo = Math.round(flootingNumberTwo);
 const convertFlootingNumberThree = Math.round(flootingNumberThree);
 
-console.log(`${convertFlootingNumberOne} \n${convertFlootingNumberTwo} \n${convertFlootingNumberThree}`);
+// console.log(`${convertFlootingNumberOne} \n${convertFlootingNumberTwo} \n${convertFlootingNumberThree}`);
+
+const flootingArry = [
+    Math.round(flootingNumberOne),
+    Math.round(flootingNumberTwo),
+    Math.round(flootingNumberThree)
+]
+console.log(flootingArry)
 
 const randonIntegers = Math.random() * 6 + 1;
 console.log(Math.floor(randonIntegers))
