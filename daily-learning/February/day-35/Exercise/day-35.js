@@ -1,0 +1,1 @@
+const aFreeDay = `Well today we just have to keep the streak going`;
