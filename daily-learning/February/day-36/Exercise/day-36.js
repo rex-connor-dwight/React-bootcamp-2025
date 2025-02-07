@@ -16,10 +16,10 @@
 // }
 
 const loopOne = () => {
-    let r = 1
-    for (r = 1; r <= 5; r++ ) {
+    // let r = 1
+    for (r = 0; r <= 5; r++) {
         console.log(`Iteration ` + r)
-    } 
+    }
     return r
 }
 
