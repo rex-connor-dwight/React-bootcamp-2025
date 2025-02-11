@@ -8,6 +8,7 @@
 // Example
 const name = `Hectro`
 // console.log(`Hello`  name)
+// console.log(`Hello ${name}`)
 
 
 // 2. Reference Errors (ReferenceError)
@@ -47,22 +48,26 @@ const array = [20, 63, 23, 49]
 // The try block runs a piece of code, and if an error occurs, the catch block executes.
 
 // Example
-const newVariables = `Amazing`;
+const newVariable = `Amazing`;
 try{
     // console.log(newVariable)
 }catch (error){
-    // console.log(`An Error Occured`, error.message)
+    // console.log(`Oops!!`, error.message)
 };
+
+// console.log(newVariable)
 
 
 // 2. throw Statement
 // You can manually generate errors using the throw keyword.
 
 // Example
-const gender =`NonBinary`
-if (!gender === `Male` || `Female`){
+const gender = `Male`
+if (!gender == `Male` || `Female`){
     // throw new Error(`You must be either a male or female`)
 }
+
+
 
 const valPackage = (hasPartner) =>{
     if (!hasPartner){
@@ -72,7 +77,7 @@ const valPackage = (hasPartner) =>{
 }
 
 try{
-    // console.log(valPackage(true));
+    // console.log(valPackage(false));
 }catch (error){
     console.log(error.message)
 }
@@ -82,7 +87,7 @@ try{
 // The finally block always runs after try and catch, regardless of whether an error occurred.
 
 // Example
-// const beta = 34;
+const beta = 34;
 try{
     console.log(beta)
 }catch (error){
