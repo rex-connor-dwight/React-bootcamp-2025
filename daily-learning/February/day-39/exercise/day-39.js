@@ -1,0 +1,1 @@
+const thisDay = `Free Day`;
