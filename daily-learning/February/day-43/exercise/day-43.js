@@ -23,12 +23,14 @@ const asynchronous = () =>{
     const framerThree = `Framer Three`;
 
     console.log(framerOne)
+
     setTimeout(() => {
         console.log(framerTwo)
     }, 2000)
+    
     console.log(framerThree)
 }
-// asynchronous()
+asynchronous()
 
 // Understanding setTimeout in JavaScript
 
@@ -98,6 +100,18 @@ setTimeout(() => {
     // console.log(`Requested delay: 100ms`);
     // console.log(`Actual delay: ${end - start}ms`);
 }, 100);
+
+
+
+
+
+
+// Module 2: Callbacks
+
+// Theory
+// Callbacks are functions passed as arguments to other functions, which will be executed later. They were the original way to handle asynchronous operations in JavaScript.
+
+
 
 
 
